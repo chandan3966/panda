@@ -2,22 +2,26 @@
  
 
   
-  <div class="row">
-      <div class="col-1">
-        <div class="nav flex-column nav-pills navleft" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
-          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
-        </div>
+  <div class="row"> 
+      <div class="col-1 jai">
+          <nav>
+              <div class="nav nav-tabs flex-column" id="nav-tab" role="tablist" style="margin-top: 5rem;" aria-orientation="vertical">
+                <a class="nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="falsa"><img src="../assets/images/before.png" style="height: 20px;" alt=""></a><br>
+                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><img src="../assets/images/search1.png" style="height: 20px;" alt=""></a><br>
+                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="../assets/images/house1.png" style="height: 20px;" alt=""></a><br>
+              </div>
+            </nav>
+        
       </div>
       <div class="col-11">
           <div class="topbar">
               <img class = "logo" src="../assets/images/panda.png" alt=""/>
           
-              <div class="rightpart">
+              <!-- <div class="rightpart"> -->
+                  <a class="notification" href="google.com"><img src="../assets/images/use.png" style="height: 20px;" alt=""></a>
+                <a class="notification" href="google.com"><img src="../assets/images/not.png" style="height: 20px;" alt=""></a>
                 
-              </div>
+              <!-- </div> -->
             </div>
 
 
@@ -26,7 +30,7 @@
             <div class="card first" style="width: 56rem; background-color: #F5F9F9;">
                 <div class="card-body">
                   <h5 class="card-title" style="color: #2B8998;">Got bulk orders or almost similar orders? Fill the order in an excel sheet</h5>
-                  <p class="card-text">If you're wondering about an easy way to place orders in large numbers,we provie a way customizable just for that.Download our excelsheet, and fill the order breif in the prescribed format and submit. In case you need any help,we are just a click away to assist you in placing your order</p>
+                  <p class="card-text">If you're wondering about an easy way to place orders in large numbers,we provie a way customizable just for that.Download our excelsheet, and fill the order breif in the prescribed format and submit. In case you need any help,<span><a id="in" href="#">we are just a click away to assist you in placing your order</a></span></p>
                   <button type="button" class="btn btn-outline-info pl-5 pr-5">Order via Excel Sheet</button>
                 </div>
             </div>
